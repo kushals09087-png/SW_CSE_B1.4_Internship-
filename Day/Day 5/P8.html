@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS units</title>
+</head>
+<body>
+    <p>
+        CSS units: CSS supports a wide range of units for specifying lengths, sizes, and other measurements. 
+       
+    </p>
+    <p>
+        1.Absolute Units: Represent fixed values. They do not change based on parent element, screen size or font-size.<br><br>
+        >> Pixels (px): 1px is considerd as 1/96 of an inch<br>
+        >> Centimeters (cm), millimeters(mm), inch(in): Basis of real world measurements.<br>
+        >> Points (pt), picas(pc): Legacy approach<br><br><br>
+
+        When to use?<br>
+        For print layout<br>
+
+    </p>
+    <p>2.Relative Units: are based on relation with another element's size, viewport size.<br>
+        Responsive design.<br>
+        a) Font-related units:<br>
+        >> em: relative to the font-size of the current element's parent<br>
+        >> rem: root em: relative to the root element's(html) font size, not the parent<br>
+        >> ex: Relative to the x-height<br><br><br>
+
+        b) Percentage based units:<br>
+        >> %(percent): relative to element's parent<br><br><br>
+
+        c) viewport-relative units:<br> 
+            viewport: It is the visible area of web page in the browser window or on a device screen. The rectangular area/region where browser renders and shows content<br><br>
+
+            >>vw: viewport width<br>
+              1vw = 1% of viewport width<br><br>
+            
+            >>vh: viewport height<br>
+             1 vh = 1% of viewport height<br><br>
+
+            >>vmin:<br>
+                1 vmin = 1% of the smaller dimension (width or height) of the viewport<br><br>
+
+            >>vmax:<br>
+                1 vmax= 1% of the larger dimensiom(width or height) of the viewport<br><br><br>
+
+            
+            When to use which unit?<br>
+            >> px: Fine or precise values<br>
+            >> rem: Font sizes or whenever spacing is needed, Responsive.<br>
+            >> %: Great width or heights<br>
+            >> vw, vh, vmin, vmax: Ideal for full-screen sections, is adapts to screen size.<br>
+            >> cm,mm,in,pt: For print layout
+            
+    </p>
+    
+</body>
+</html>
