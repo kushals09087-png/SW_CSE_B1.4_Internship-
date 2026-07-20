@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:black;
+            padding:20px;
+        }
+
+        .orange-box{
+            background:rgb(253, 122, 0);
+            height:120px;
+            margin-bottom:20px;
+        }
+
+        .blue-boxes{
+            display:flex;
+            justify-content:space-between;
+            margin-bottom:20px;
+        }
+
+        .box{
+            width:15%;
+            height:110px;
+            background:blue;
+        }
+
+        .content{
+            display:flex;
+            justify-content:space-between;
+            margin-bottom:20px;
+        }
+
+        .left,
+        .right{
+            width:49%;
+            height:160px;
+            background:greenyellow;
+        }
+
+        .yellow-box{
+            background:gold;
+            height:45px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="orange-box"></div>
+
+    <div class="blue-boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <div class="content">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="yellow-box"></div>
+
+</body>
+</html>
