@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox: flex-items</title>
+    <style>
+       .nav{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: burlywood;
+        padding: 10px 20px;
+        color: aqua;
+       }
+       .nav-links{
+        display: flex;
+        gap: 16px;
+        list-style: none;
+       }
+       .nav-links a{
+        color: rgb(218, 82, 245);
+        text-decoration: none;
+       }
+       .nav-links a:hover{
+        text-decoration: underline;
+        color: aquamarine;
+
+       }
+    </style>
+</head>
+
+<body>
+    <p>
+        Flex-item properties:<br>
+        1. flex-grow<br>
+        2. flex-shrink<br>
+        3. flex-basis<br>
+        4. flex-shorthand<br>
+        5. align-self<br>
+        6. order<br>
+        <br>
+
+        Flexbox patterns:<br>
+        1. Center a both horizontally & vertically<br>
+        2. Simple navigation bar<br>
+        3. Responsive vard layout<br>
+        4. Two-column layput(sidebar + main)<br>
+    </p>
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</body>
+
+</html>
