@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid container properties</title>
     <style>
-        .basic-grid{
+        .basic-grid {
             display: grid;
             /* grid-template-columns: 200px 200px 100px; */
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(2,90px);
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 90px);
             background-color: cadetblue;
             padding: 10px 20px;
             border: 1px solid black;
-            gap:12px;
-        }
-        .box{
-            background-color: burlywood;
-            padding: 15px;
-            text-align:center;
+            /* gap:12px; */
+            row-gap: 10px;
+            column-gap: 20px;
         }
 
+        .box {
+            background-color: burlywood;
+            padding: 15px;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -39,4 +41,5 @@
     </section>
 
 </body>
+
 </html>
