@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS functions</title>
+</head>
+<body>
+    <h2>JS Functions</h2>
+    <script>
+        // Function declaration
+        function add(a,b){
+            return a+b;
+
+        }
+        // Function expression
+        const multiply = function(a,b){
+            return a*b;
+        }
+        // Arrow function
+        const greet = (name) => {
+            return "Hello, "+name;
+        }
+        // Arrow function with an implicit return value
+        const square = (n) => n*n;
+
+        // Default parameters
+        function welcome(name = "Guest"){
+            return "Welcome, "+name;
+        }
+
+        console.log("function add(a,b)", add(20,30));
+        console.log("multiply(a,b)", multiply(20,30));
+        console.log("greet('Kushal')", name("Kushal"));
+        console.log("square(a)", square(9));
+        console.log("welcome('Kushal')", welcome('Kushal'));
+        console.log("welcome()", welcome());
+
+    </script>
+</body>
+</html>
