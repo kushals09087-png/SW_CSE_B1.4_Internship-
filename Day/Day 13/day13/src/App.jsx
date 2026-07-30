@@ -5,6 +5,7 @@ import  ProfileList  from "./components/Props";
 import  InfoBoxDemo from "./components/PropsTwo";
 import Counter from "./components/state";
 import  ToggleText  from "./components/StateTwo";
+import NameInput from "./components/StateThree";
 const name = "Kushal";
 const isLoggedIn = true;
 function App() {
