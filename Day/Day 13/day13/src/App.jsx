@@ -1,9 +1,10 @@
 import Button from "./components/Functional component"
-import  { LeftArrow, RightArrow} from "./components/Functional Component2";
+import   {LeftArrow, RightArrow}  from "./components/Functional Component2";
 import './App.css'
 import  ProfileList  from "./components/Props";
-import InfoBoxDemo from "./components/PropsTwo";
+import  InfoBoxDemo from "./components/PropsTwo";
 import Counter from "./components/state";
+import  ToggleText  from "./components/StateTwo";
 const name = "Kushal";
 const isLoggedIn = true;
 function App() {
@@ -29,9 +30,14 @@ function App() {
     <button />
     <LeftArrow />
     <RightArrow />
+
     <ProfileList />
+
     <InfoBoxDemo />
+
     <Counter />
+
+    <ToggleText />
     </> 
   )
 }
