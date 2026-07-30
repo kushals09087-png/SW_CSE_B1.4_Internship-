@@ -6,6 +6,7 @@ import  InfoBoxDemo from "./components/PropsTwo";
 import Counter from "./components/state";
 import  ToggleText  from "./components/StateTwo";
 import NameInput from "./components/StateThree";
+import ClickDemo from "./components/EventHandling";
 const name = "Kushal";
 const isLoggedIn = true;
 function App() {
@@ -39,6 +40,10 @@ function App() {
     <Counter />
 
     <ToggleText />
+
+    <NameInput />
+
+    <ClickDemo  />
     </> 
   )
 }
