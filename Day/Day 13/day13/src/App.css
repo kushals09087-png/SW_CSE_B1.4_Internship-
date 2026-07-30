@@ -182,3 +182,12 @@
     border-right-color: var(--border);
   }
 }
+.box{
+  border: 1px solid chartreuse;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.box-primary{
+  background-color: chocolate;
+}
